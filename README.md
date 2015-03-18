@@ -38,9 +38,8 @@ The script makes use of plyr and dplyr libraries.
 
 If you have not installed the following packages, please install using the following instructions before running the script (run_analysis.R) in R Studio:
 
-install.packages("plyr")
-
-install.packages("dplyr")
+- install.packages("plyr")
+- install.packages("dplyr")
 
 After Step 5, the script outputs the processed data to a text file (tdydata.txt) on the working directory, and display the processed data on R Studio.
 
