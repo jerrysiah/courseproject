@@ -1,4 +1,4 @@
-Codebook
+#Codebook
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -11,28 +11,32 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The data comprises only the measurements on the mean and standard deviation of each measurement, including the mean frequency:
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+- mean(): Mean value
+- std(): Standard deviation
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 The labels [mean(), std(), meanFreq()] are included into the labels of each measurement to indicate its respective values.
 Example:  tBodyAcc-mean()-X is the average of tBodyAcc-X
 
 
 SubjectID:	1 to 30 indicating the ID of the 30 subjects (volunteers).
+
 Activity: 	Indicate the activity performed by the subjects when the measurements were taken.
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
 
 The average of the following variables for each activity and each subject are given in the data set:
 
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
+- tBodyAcc-mean()-X
+- tBodyAcc-mean()-Y
+- tBodyAcc-mean()-Z
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
 tGravityAcc-mean()-Z
