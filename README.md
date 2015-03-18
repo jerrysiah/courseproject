@@ -1,4 +1,4 @@
-# course3project
+# Course Project
 ##Instructions for executing script:  run_analysis.R
 
 Ensure that the script (run_analysis.R) is loaded onto the working directory of R Studio before you execute it.
